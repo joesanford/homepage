@@ -34,7 +34,7 @@ def blockytalky():
 
 @app.route('/projects')
 def projects():
-    return render_template('single-project.html')
+    return render_template('projects.html')
 
 if __name__ == '__main__':
     app.run()
