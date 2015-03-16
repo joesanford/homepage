@@ -14,7 +14,7 @@
 		 		<h4><i class="fa fa-home"></i> remoCondo</h4>
 		 		<p>The remoCondo home automation project was born out of two things. First, I had played with my Raspberry Pi, trying out interesting custom images such as <a href="http://www.raspbmc.com/" target="_new">Raspbmc</a> and <a href="http://blog.petrockblock.com/retropie/" target="_new">Retropie</a>, and decided to create something of my own. Second, my condo association charges a lot per extra key to the building, and I wanted a simple, yet secure, way to let other people in (say, to feed my cat). From here, remoCondo was born.</p>
 		 		<p>After getting a simple setup combining the Flask microframework with a basic front-end, an optocoupler, and Google OAuth for security, I could whitelist any friends and with a click of a button they could get into the building. It worked great, so I decided to add more features so my Pi was doing more than one simple task.</p>
-		 		<p>As the system was located in my living room, I started thinking about what else I could control. Utilizing <a href="http://www.lirc.org/" target="_new">LIRC</a> I found it was easy to control any device that could receive IR commands. I added controls for my television, stereo, game consoles, and most importantly my in-wall air conditioner. To also keep track of the temperature, I connected a TMP35 analog temperature sensor to the Pi. All of these controls and feedback could be easily hooked to the web front-end thanks to the ease of Flask. To prevent issues with the system status going out of sync, the Pi also has an IR receiver, that reads the same IR commands that go out from my remote, and updates any changes not made by remoCondo. Since, more additional features have been added.</p>
+		 		<p>As the system was located in my living room, I started thinking about what else I could control. Utilizing <a href="http://www.lirc.org/" target="_new">LIRC</a> I found it was easy to control any device that could receive IR commands. I added controls for my television, stereo, game consoles, and most importantly my in-wall air conditioner. To also keep track of the temperature, I connected a TMP35 analog temperature sensor to the Pi. All of these controls and feedback could be easily hooked to the web front-end thanks to the ease of Flask. To prevent issues with the system status going out of sync, the Pi also has an IR receiver, that reads the same IR commands that go out from my remote, and updates any changes not made by remoCondo. Since, more additional features have been added. When the features have been finalized, all components will be soldered and the breadboard will gone, along with proper mounting.</p>
 		 		<h4>Features</h4>
 		 		<ul>
 		 			<li>Flask microframework to interact with devices, serve the front-end, and handle security</li>
@@ -41,7 +41,14 @@
 		 		<p><b>Started:</b> April 2014</p>
 		 		<p><b>Languages:</b> Python, Bash, HTML, CSS, JS</p>
 		 		<p><b>Technologies:</b> Raspberry Pi, Flask, Sensors, Motors, Electronics</p>
-		 		<p><b><i class="fa fa-github"></i> GitHub:</b> <a href="http://github.com/joesanford/remoCondo" target="_new">remoCondo</p>
+		 		<p><b><i class="fa fa-github"></i> GitHub:</b> <a href="http://github.com/joesanford/remoCondo" target="_new">remoCondo</a></p>
+		 		<div class="spacing"></div>
+		 		<h4>Project Photos</h4>
+		 		<div class="hline"></div>
+		 		<center><p><b>Interface</b></p></center>
+		 		<img src="static/img/remocondo-interface.png"><br>
+		 		<center><p><b>Current Breadboard Setup</b></p></center>
+		 		<img src="static/img/rc.jpeg"><br><br>
 		 	</div>
 		 	
 	 	</div>
