@@ -420,10 +420,10 @@ csmall2 {
 	min-height: 150px;
 	width: 100%;
 	
-    -webkit-background-size: 75%;
-    -moz-background-size: 75%;
-    -o-background-size: 75%;
-    background-size: 75%;
+    -webkit-background-size: 50%;
+    -moz-background-size: 50%;
+    -o-background-size: 50%;
+    background-size: 50%;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
