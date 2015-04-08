@@ -37,5 +37,9 @@ def blockytalky():
 def projects():
     return render_template('projects.html')
 
+@app.route('/publications')
+def pubs():
+    return render_template('pubs.html')
+
 if __name__ == '__main__':
     app.run()
