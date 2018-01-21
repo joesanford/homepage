@@ -4,7 +4,7 @@ import datetime
 
 app = Flask(__name__)
 
-app.debug = True
+app.debug = False
 
 
 @app.route('/')
