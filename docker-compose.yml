@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    image: 'joesanford/homepage:latest'
+    ports:
+      - '80:80'
+    networks:
+      - 'webnet'
+networks:
+  webnet:
