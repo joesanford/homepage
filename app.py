@@ -27,17 +27,7 @@ def resume():
     return render_template('resume.html')
 
 
-@app.route('/projects_homeauto')
-def homeauto():
-    return render_template('homeauto.html')
-
-
-@app.route('/projects_blockytalky')
-def blockytalky():
-    return render_template('blockytalky.html')
-
-
-@app.route('/projects_other')
+@app.route('/projects')
 def projects():
     return render_template('projects.html')
 
