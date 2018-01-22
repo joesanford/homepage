@@ -1,2 +1,2 @@
 # homepage
-Simple personal homepage built with Flask and Bootstrap, running on Apache
+Personal homepage built with Flask and Flask-Bootstrap, running in Docker, served by nginx
