@@ -1,9 +1,6 @@
 web:
   image: 'joesanford/homepage:latest'
-
-  # Redeploy web app in case if it's image is updated.
   autoredeploy: true
-
-  # Expose port 80 of the container and map it to port 80 of host machine (droplet)
   ports:
     - '80:80'
+    - '443:443'

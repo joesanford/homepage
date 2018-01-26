@@ -4,7 +4,4 @@ services:
     image: 'joesanford/homepage:latest'
     ports:
       - '80:80'
-    networks:
-      - 'webnet'
-networks:
-  webnet:
+      - '443:443'
