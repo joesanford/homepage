@@ -33,7 +33,7 @@ def projects():
 
 @app.route('/publications')
 def pubs():
-    return render_template('pubs.html')
+    return render_template('publications.html')
 
 
 @app.context_processor
@@ -42,4 +42,4 @@ def inject_now():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, ssl_context='adhoc')
+    app.run(host='0.0.0.0', port=80)
