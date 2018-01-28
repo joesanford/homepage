@@ -1,1 +1,0 @@
-certbot certonly --agree-tos -m josephsanford@gmail.com -d jpsanford.com -d www.jpsanford.com --dns-digitalocean --dns-digitalocean-credentials=credentials.ini --noninteractive
