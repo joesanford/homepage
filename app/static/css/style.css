@@ -68,9 +68,6 @@ a:focus {
 	text-align: center
 }
 
-/*	################################################################
-	BOOTSTRAP MODIFICATIONS & TWEAKS
-################################################################# */
 .navbar {
 	min-height: 70px;
 	padding-top: 10px;
@@ -442,3 +439,6 @@ csmall2 {
 	font-size: 18px;
 }
 
+#content {
+    margin-bottom:60px;
+}
